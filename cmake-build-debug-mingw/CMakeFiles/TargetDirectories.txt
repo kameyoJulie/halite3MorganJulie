@@ -1,0 +1,3 @@
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/CMakeFiles/MyBot.dir
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+"D:\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\MyBot.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\MyBot.dir/objects.a @CMakeFiles\MyBot.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -g -O2 -Wall -Wno-unused-function -pedantic -g   -Wl,--whole-archive CMakeFiles\MyBot.dir/objects.a -Wl,--no-whole-archive  -o MyBot.exe -Wl,--out-implib,libMyBot.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MyBot.dir\linklibs.rsp

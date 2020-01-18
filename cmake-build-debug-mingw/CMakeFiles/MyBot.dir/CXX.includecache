@@ -1,0 +1,198 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/MyBot.cpp
+hlt/game.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game.hpp
+hlt/constants.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/constants.hpp
+hlt/log.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.hpp
+random
+-
+ctime
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/command.cpp
+command.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/command.hpp
+iostream
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/command.hpp
+direction.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/direction.hpp
+types.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp
+string
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/constants.cpp
+constants.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/constants.hpp
+log.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.hpp
+unordered_map
+-
+sstream
+-
+vector
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/constants.hpp
+string
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/direction.hpp
+log.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.hpp
+ostream
+-
+array
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/dropoff.cpp
+dropoff.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/dropoff.hpp
+input.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/input.hpp
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/dropoff.hpp
+entity.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/entity.hpp
+memory
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/entity.hpp
+types.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp
+position.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/position.hpp
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game.cpp
+game.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game.hpp
+input.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/input.hpp
+sstream
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game.hpp
+game_map.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game_map.hpp
+player.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/player.hpp
+types.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp
+vector
+-
+iostream
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game_map.cpp
+game_map.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game_map.hpp
+input.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/input.hpp
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game_map.hpp
+types.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp
+map_cell.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/map_cell.hpp
+vector
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/input.hpp
+log.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.hpp
+string
+-
+iostream
+-
+sstream
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.cpp
+log.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.hpp
+fstream
+-
+iostream
+-
+vector
+-
+chrono
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.hpp
+string
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/map_cell.hpp
+types.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp
+position.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/position.hpp
+ship.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/ship.hpp
+dropoff.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/dropoff.hpp
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/player.cpp
+player.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/player.hpp
+input.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/input.hpp
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/player.hpp
+types.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp
+shipyard.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/shipyard.hpp
+ship.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/ship.hpp
+dropoff.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/dropoff.hpp
+memory
+-
+unordered_map
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/position.hpp
+types.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp
+direction.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/direction.hpp
+iostream
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/ship.cpp
+ship.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/ship.hpp
+input.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/input.hpp
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/ship.hpp
+entity.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/entity.hpp
+constants.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/constants.hpp
+command.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/command.hpp
+memory
+-
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/shipyard.hpp
+entity.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/entity.hpp
+command.hpp
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/command.hpp
+
+C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp
+
