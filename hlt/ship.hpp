@@ -10,10 +10,7 @@ namespace hlt {
     struct Ship : Entity {
         Halite halite;
 
-        Ship(PlayerId player_id, EntityId ship_id, int x, int y, Halite halite) :
-            Entity(player_id, ship_id, x, y),
-            halite(halite)
-        {}
+        Ship(PlayerId player_id, EntityId ship_id, int x, int y, Halite halite);
 
         bool is_full() const;
 
