@@ -42,10 +42,10 @@ RM = "D:\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier"
+CMAKE_SOURCE_DIR = "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw"
+CMAKE_BINARY_DIR = "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyBot.dir/depend.make
@@ -59,128 +59,128 @@ include CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/command.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/command.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/hlt/command.cpp.obj: ../hlt/command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyBot.dir/hlt/command.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\command.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\command.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyBot.dir/hlt/command.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\command.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\command.cpp"
 
 CMakeFiles/MyBot.dir/hlt/command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/command.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\command.cpp" > CMakeFiles\MyBot.dir\hlt\command.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\command.cpp" > CMakeFiles\MyBot.dir\hlt\command.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/command.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\command.cpp" -o CMakeFiles\MyBot.dir\hlt\command.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\command.cpp" -o CMakeFiles\MyBot.dir\hlt\command.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/constants.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/constants.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/hlt/constants.cpp.obj: ../hlt/constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyBot.dir/hlt/constants.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\constants.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\constants.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyBot.dir/hlt/constants.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\constants.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\constants.cpp"
 
 CMakeFiles/MyBot.dir/hlt/constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/constants.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\constants.cpp" > CMakeFiles\MyBot.dir\hlt\constants.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\constants.cpp" > CMakeFiles\MyBot.dir\hlt\constants.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/constants.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\constants.cpp" -o CMakeFiles\MyBot.dir\hlt\constants.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\constants.cpp" -o CMakeFiles\MyBot.dir\hlt\constants.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.obj: ../hlt/dropoff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyBot.dir/hlt/dropoff.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\dropoff.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\dropoff.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyBot.dir/hlt/dropoff.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\dropoff.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\dropoff.cpp"
 
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/dropoff.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\dropoff.cpp" > CMakeFiles\MyBot.dir\hlt\dropoff.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\dropoff.cpp" > CMakeFiles\MyBot.dir\hlt\dropoff.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/dropoff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/dropoff.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\dropoff.cpp" -o CMakeFiles\MyBot.dir\hlt\dropoff.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\dropoff.cpp" -o CMakeFiles\MyBot.dir\hlt\dropoff.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/game.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/game.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/hlt/game.cpp.obj: ../hlt/game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyBot.dir/hlt/game.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\game.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyBot.dir/hlt/game.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\game.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\game.cpp"
 
 CMakeFiles/MyBot.dir/hlt/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/game.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\game.cpp" > CMakeFiles\MyBot.dir\hlt\game.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\game.cpp" > CMakeFiles\MyBot.dir\hlt\game.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/game.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\game.cpp" -o CMakeFiles\MyBot.dir\hlt\game.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\game.cpp" -o CMakeFiles\MyBot.dir\hlt\game.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.obj: ../hlt/game_map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyBot.dir/hlt/game_map.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\game_map.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\game_map.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyBot.dir/hlt/game_map.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\game_map.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\game_map.cpp"
 
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/game_map.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\game_map.cpp" > CMakeFiles\MyBot.dir\hlt\game_map.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\game_map.cpp" > CMakeFiles\MyBot.dir\hlt\game_map.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/game_map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/game_map.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\game_map.cpp" -o CMakeFiles\MyBot.dir\hlt\game_map.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\game_map.cpp" -o CMakeFiles\MyBot.dir\hlt\game_map.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/log.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/log.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/hlt/log.cpp.obj: ../hlt/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyBot.dir/hlt/log.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\log.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\log.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyBot.dir/hlt/log.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\log.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\log.cpp"
 
 CMakeFiles/MyBot.dir/hlt/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/log.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\log.cpp" > CMakeFiles\MyBot.dir\hlt\log.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\log.cpp" > CMakeFiles\MyBot.dir\hlt\log.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/log.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\log.cpp" -o CMakeFiles\MyBot.dir\hlt\log.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\log.cpp" -o CMakeFiles\MyBot.dir\hlt\log.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/player.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/player.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/hlt/player.cpp.obj: ../hlt/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyBot.dir/hlt/player.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\player.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyBot.dir/hlt/player.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\player.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\player.cpp"
 
 CMakeFiles/MyBot.dir/hlt/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/player.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\player.cpp" > CMakeFiles\MyBot.dir\hlt\player.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\player.cpp" > CMakeFiles\MyBot.dir\hlt\player.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/player.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\player.cpp" -o CMakeFiles\MyBot.dir\hlt\player.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\player.cpp" -o CMakeFiles\MyBot.dir\hlt\player.cpp.s
 
 CMakeFiles/MyBot.dir/hlt/ship.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/hlt/ship.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/hlt/ship.cpp.obj: ../hlt/ship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyBot.dir/hlt/ship.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\ship.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\ship.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyBot.dir/hlt/ship.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\hlt\ship.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\ship.cpp"
 
 CMakeFiles/MyBot.dir/hlt/ship.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/hlt/ship.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\ship.cpp" > CMakeFiles\MyBot.dir\hlt\ship.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\ship.cpp" > CMakeFiles\MyBot.dir\hlt\ship.cpp.i
 
 CMakeFiles/MyBot.dir/hlt/ship.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/hlt/ship.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\hlt\ship.cpp" -o CMakeFiles\MyBot.dir\hlt\ship.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\hlt\ship.cpp" -o CMakeFiles\MyBot.dir\hlt\ship.cpp.s
 
 CMakeFiles/MyBot.dir/MyBot.cpp.obj: CMakeFiles/MyBot.dir/flags.make
 CMakeFiles/MyBot.dir/MyBot.cpp.obj: CMakeFiles/MyBot.dir/includes_CXX.rsp
 CMakeFiles/MyBot.dir/MyBot.cpp.obj: ../MyBot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyBot.dir/MyBot.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\MyBot.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\MyBot.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyBot.dir/MyBot.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyBot.dir\MyBot.cpp.obj -c "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\MyBot.cpp"
 
 CMakeFiles/MyBot.dir/MyBot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyBot.dir/MyBot.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\MyBot.cpp" > CMakeFiles\MyBot.dir\MyBot.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\MyBot.cpp" > CMakeFiles\MyBot.dir\MyBot.cpp.i
 
 CMakeFiles/MyBot.dir/MyBot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyBot.dir/MyBot.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\MyBot.cpp" -o CMakeFiles\MyBot.dir\MyBot.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\MyBot.cpp" -o CMakeFiles\MyBot.dir\MyBot.cpp.s
 
 # Object files for target MyBot
 MyBot_OBJECTS = \
@@ -210,7 +210,7 @@ MyBot.exe: CMakeFiles/MyBot.dir/build.make
 MyBot.exe: CMakeFiles/MyBot.dir/linklibs.rsp
 MyBot.exe: CMakeFiles/MyBot.dir/objects1.rsp
 MyBot.exe: CMakeFiles/MyBot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MyBot.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MyBot.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyBot.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -223,6 +223,6 @@ CMakeFiles/MyBot.dir/clean:
 .PHONY : CMakeFiles/MyBot.dir/clean
 
 CMakeFiles/MyBot.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier\cmake-build-debug-mingw\CMakeFiles\MyBot.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite\cmake-build-debug-mingw\CMakeFiles\MyBot.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/MyBot.dir/depend
 

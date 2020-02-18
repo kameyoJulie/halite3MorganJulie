@@ -4,7 +4,7 @@
 #include "map_cell.hpp"
 
 #include <vector>
-
+using namespace std;
 namespace hlt {
     struct GameMap {
         int width;
@@ -35,8 +35,8 @@ namespace hlt {
             const int dx = std::abs(normalized_source.x - normalized_target.x);
             const int dy = std::abs(normalized_source.y - normalized_target.y);
 
-            const int toroidal_dx = std::min(dx, width - dx);
-            const int toroidal_dy = std::min(dy, height - dy);
+            const int toroidal_dx = min(dx, width - dx);
+            const int toroidal_dy = min(dy, height - dy);
 
             return toroidal_dx + toroidal_dy;
         }
@@ -88,5 +88,6 @@ namespace hlt {
 
         void _update();
         static std::unique_ptr<GameMap> _generate();
+        std::vector<hlt::MapCell> _scan();
     };
 }

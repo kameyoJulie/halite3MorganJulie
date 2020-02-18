@@ -1,4 +1,4 @@
-"D:\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Nouveau dossier"
+"D:\CLion 2019.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\morga\OneDrive\Documents\Cours\CNAM\2nde annee\IA\Halite"
 -- The C compiler identification is GNU 6.3.0
 -- The CXX compiler identification is GNU 6.3.0
 -- Check for working C compiler: C:/MinGW/bin/gcc.exe
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw
+-- Build files have been written to: C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw

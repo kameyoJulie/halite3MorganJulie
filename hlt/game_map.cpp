@@ -1,3 +1,4 @@
+#include <mshtml.h>
 #include "game_map.hpp"
 #include "input.hpp"
 
@@ -39,4 +40,16 @@ std::unique_ptr<hlt::GameMap> hlt::GameMap::_generate() {
     }
 
     return map;
+}
+
+std::vector<hlt::MapCell> hlt::GameMap::_scan() {
+    std::vector<MapCell> highHaliteCells;
+    for (int y = 0; y < height; ++y) {
+        for (int x = 0; x < width; ++x) {
+            if (cells[x][y].halite >= 300) {
+                highHaliteCells.push_back(cells[x][y]);
+            }
+        }
+    }
+    return highHaliteCells;
 }

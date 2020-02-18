@@ -4,6 +4,7 @@
 
 #include <random>
 #include <ctime>
+#include <sstream>
 
 using namespace std;
 using namespace hlt;
@@ -24,16 +25,25 @@ int main(int argc, char* argv[]) {
     game.ready("MyCppBot");
 
     log::log("Successfully created bot! My Player ID is " + to_string(game.my_id) + ". Bot rng seed is " + to_string(rng_seed) + ".");
+    vector<MapCell> scan(game.game_map->_scan());
+
+    for (auto & i : scan) { // <=> for (int i = 0; i < scan.size(); ++i) {
+        log::log("Map cell coord " + to_string(i.position.x) + ", " + to_string(i.position.y) + ", halite " + to_string(i.halite));
+    }
 
     for (;;) {
         game.update_frame();
         shared_ptr<Player> me = game.me;
         unique_ptr<GameMap>& game_map = game.game_map;
 
+        //Actions to realize per turn
         vector<Command> command_queue;
 
         for (const auto& ship_iterator : me->ships) {
             shared_ptr<Ship> ship = ship_iterator.second;
+
+            //ship random moving
+            //si les ressources sur l'emplacement du ship inférieur aux ressources max / 10 ou que le bateau est plein
             if (game_map->at(ship)->halite < constants::MAX_HALITE / 10 || ship->is_full()) {
                 Direction random_direction = ALL_CARDINALS[rng() % 4];
                 command_queue.push_back(ship->move(random_direction));
@@ -42,6 +52,7 @@ int main(int argc, char* argv[]) {
             }
         }
 
+        //condition if the turn number is over 200 to create a shipyard
         if (
             game.turn_number <= 200 &&
             me->halite >= constants::SHIP_COST &&

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier
+# Install script for directory: C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

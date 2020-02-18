@@ -8,34 +8,34 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw"/>
+				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw"/>
+				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MyBot">
-				<Option output="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/MyBot.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw"/>
+				<Option output="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/MyBot.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt"/>
-					<Add directory="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier"/>
+					<Add directory="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt"/>
+					<Add directory="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -45,21 +45,21 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 MyBot"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 MyBot"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MyBot/fast">
-				<Option output="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/MyBot.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw"/>
+				<Option output="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/MyBot.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt"/>
-					<Add directory="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier"/>
+					<Add directory="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt"/>
+					<Add directory="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -69,96 +69,96 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 MyBot/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 MyBot/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw"/>
+				<Option working_dir="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/MyBot.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/MyBot.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/command.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/command.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/command.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/command.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/constants.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/constants.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/constants.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/constants.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/direction.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/direction.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/dropoff.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/dropoff.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/dropoff.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/dropoff.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/entity.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/entity.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/game.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/game.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game_map.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/game_map.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/game_map.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/game_map.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/input.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/input.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/log.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/log.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/log.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/map_cell.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/map_cell.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/player.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/player.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/player.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/player.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/position.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/position.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/ship.cpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/ship.cpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/ship.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/ship.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/shipyard.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/shipyard.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/hlt/types.hpp">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/hlt/types.hpp">
 			<Option target="MyBot"/>
 		</Unit>
-		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Nouveau dossier/CMakeLists.txt">
+		<Unit filename="C:/Users/morga/OneDrive/Documents/Cours/CNAM/2nde annee/IA/Halite/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
