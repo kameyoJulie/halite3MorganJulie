@@ -121,7 +121,7 @@ std::vector<hlt::MapCell> hlt::GameMap::_scan() {
     std::vector<MapCell> highHaliteCells;
     for (int y = 0; y < height; ++y) {
         for (int x = 0; x < width; ++x) {
-            if (cells[x][y].halite >= 300) {
+            if (cells[x][y].halite >= 500) {
                 highHaliteCells.push_back(cells[x][y]);
             }
         }

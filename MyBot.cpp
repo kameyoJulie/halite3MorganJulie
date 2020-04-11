@@ -41,21 +41,17 @@ int main(int argc, char* argv[]) {
 
         for (const auto& ship_iterator : me->ships) {
             shared_ptr<Ship> ship = ship_iterator.second;
-
-            //ship random moving
-            //si les ressources sur l'emplacement du ship inférieur aux ressources max / 10 ou que le bateau est plein
-            if (game_map->at(ship)->halite < constants::MAX_HALITE / 10 || ship->is_full()) {
-                Direction random_direction = ALL_CARDINALS[rng() % 4];
-                command_queue.push_back(ship->move(random_direction));
+            if (ship->halite < 400) {
+                command_queue.push_back(ship->move(game_map->naive_navigate(ship, scan[ship->id].position)));
             } else {
-                command_queue.push_back(ship->stay_still());
+                command_queue.push_back(ship->move(game_map->naive_navigate(ship, me->shipyard->position)));
             }
         }
 
         //condition if the turn number is over 200 to create a shipyard
         if (
             game.turn_number <= 200 &&
-            me->halite >= constants::SHIP_COST &&
+            me->halite >= constants::SHIP_COST*2 &&
             !game_map->at(me->shipyard)->is_occupied())
         {
             command_queue.push_back(me->shipyard->spawn());

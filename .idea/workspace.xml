@@ -12,76 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ff4b1e-6017-43e2-beea-ba9ad1e6f8df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/CMake Overview" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/halite/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/halite/v16/Browse.VC.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/halite/v16/ipch/AutoPCH/99b0a65ce20d6f6d/MYBOT.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/query/client-MicrosoftVS/query.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/cache-v2-8213a32e1a55dcaf0752.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/cmakeFiles-v1-b1ffb741e50634c623a0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-4a5cafee5f5bd6d49fdb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2020-02-17T17-17-29-0528.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-MyBot-Debug-5d431fac033c04259b72.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.15.19101501-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/ShowIncludes/foo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/ShowIncludes/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/ShowIncludes/main.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/VSInheritEnvironments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyBot.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBot.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyBot.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/MyBot.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/MyBot.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/command.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/command.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/constants.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/constants.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/dropoff.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/dropoff.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/game.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/game.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/game_map.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/log.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/log.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/player.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/player.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/ship.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/hlt/ship.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/MyBot.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/MyBot.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/MyBot.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/MyBot.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/MyBot.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hlt/game_map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/game_map.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/game_map.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/game_map.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/ship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/ship.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/MyBot.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/MyBot.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/command.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/command.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/constants.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/constants.obj" afterDir="false" />
@@ -91,7 +26,6 @@
       <change beforePath="$PROJECT_DIR$/obj/log.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/log.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/player.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/player.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/ship.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ship.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replays/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +120,7 @@
       <workItem from="1581928281819" duration="10000" />
       <workItem from="1581960124666" duration="81000" />
       <workItem from="1582026719315" duration="2941000" />
+      <workItem from="1586608021183" duration="3417000" />
     </task>
     <servers />
   </component>
@@ -196,10 +131,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="246" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576079775074">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="246" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576079775074" />
     <state x="717" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579361798662">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -249,19 +180,20 @@
     </state>
     <state x="59" y="182" key="SettingsEditor/0.0.1920.1050/-1366.0.1366.738@0.0.1920.1050" timestamp="1580661617795" />
     <state x="59" y="182" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1581866358455" />
-    <state x="661" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1582026719935">
+    <state x="661" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1586608022995">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="661" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/-1366.0.1366.738@0.0.1920.1050" timestamp="1580658246340" />
-    <state x="661" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582026719935" />
-    <state x="656" y="130" width="607" height="789" key="find.popup" timestamp="1580662372125">
+    <state x="661" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586608022995" />
+    <state x="656" y="130" width="607" height="789" key="find.popup" timestamp="1586611149619">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="656" y="130" width="607" height="789" key="find.popup/0.0.1920.1050/-1366.0.1366.738@0.0.1920.1050" timestamp="1580662372125" />
-    <state x="701" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1581694513373">
+    <state x="656" y="130" width="607" height="789" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586611149619" />
+    <state x="701" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1586532650945">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="701" y="168" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581694513373" />
+    <state x="701" y="168" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586532650945" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1581692503372">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
