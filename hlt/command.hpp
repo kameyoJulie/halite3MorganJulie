@@ -1,3 +1,5 @@
+// principal commands used by the IA to control the ship
+
 #pragma once
 
 #include "direction.hpp"

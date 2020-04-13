@@ -41,6 +41,8 @@ int main(int argc, char* argv[]) {
 
         for (const auto& ship_iterator : me->ships) {
             shared_ptr<Ship> ship = ship_iterator.second;
+
+            //If halite in cargo < 400 => harvest else go back to the shipyard
             if (ship->halite < 400) {
                 command_queue.push_back(ship->move(game_map->naive_navigate(ship, scan[ship->id].position)));
             } else {
@@ -48,12 +50,12 @@ int main(int argc, char* argv[]) {
             }
         }
 
-        //condition if the turn number is over 200 to create a shipyard
-        if (
-            game.turn_number <= 200 &&
+        //condition if the turn number is over 200 & total halite > 2000 & shipyard not occuped
+        // to create a new ship
+        if (game.turn_number <= 200 &&
             me->halite >= constants::SHIP_COST*2 &&
-            !game_map->at(me->shipyard)->is_occupied())
-        {
+            !game_map->at(me->shipyard)->is_occupied()) {
+        // if (me->ships.empty()) {
             command_queue.push_back(me->shipyard->spawn());
         }
 

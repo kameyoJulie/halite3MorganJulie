@@ -1,3 +1,5 @@
+// game's constants
+
 #pragma once
 
 #include <string>

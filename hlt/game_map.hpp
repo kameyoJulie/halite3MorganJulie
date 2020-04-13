@@ -1,3 +1,5 @@
+//game map controller used to locate all entities
+
 #pragma once
 
 #include "types.hpp"

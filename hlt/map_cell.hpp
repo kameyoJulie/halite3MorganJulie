@@ -1,3 +1,5 @@
+//Map cell model
+
 #pragma once
 
 #include "types.hpp"

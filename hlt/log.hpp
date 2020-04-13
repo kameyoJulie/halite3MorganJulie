@@ -1,3 +1,5 @@
+// log manager which permit to debug
+
 #pragma once
 
 #include <string>

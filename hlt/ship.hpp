@@ -1,3 +1,5 @@
+// ship manager
+
 #pragma once
 
 #include "entity.hpp"

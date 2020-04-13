@@ -1,3 +1,5 @@
+// entity type definition
+
 #pragma once
 
 namespace hlt {

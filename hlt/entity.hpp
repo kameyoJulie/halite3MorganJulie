@@ -1,3 +1,5 @@
+//Entity model
+
 #pragma once
 
 #include "types.hpp"

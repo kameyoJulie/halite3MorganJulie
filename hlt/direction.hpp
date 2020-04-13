@@ -1,3 +1,5 @@
+// direction used to move the ships
+
 #pragma once
 
 #include "log.hpp"
