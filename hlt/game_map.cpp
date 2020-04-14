@@ -70,7 +70,9 @@ hlt::Direction hlt::GameMap::naive_navigate(shared_ptr<Ship> ship, const hlt::Po
         Position target_pos = ship->position.directional_offset(direction);
         if (!at(target_pos)->is_occupied()) {
             at(target_pos)->mark_unsafe(ship);
-            return direction;
+            if (at(destination)->halite > 50) {
+                return direction;
+            }
         }
     }
 

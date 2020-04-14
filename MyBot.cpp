@@ -38,14 +38,16 @@ int main(int argc, char* argv[]) {
 
         //Actions to realize per turn
         vector<Command> command_queue;
+        Direction destination;
 
         for (const auto& ship_iterator : me->ships) {
             shared_ptr<Ship> ship = ship_iterator.second;
 
             //If halite in cargo < 400 => harvest else go back to the shipyard
-            if (ship->halite < 400) {
+            if (ship->halite < 400 /*&& moveNextCell(destination)==true*/) {
                 command_queue.push_back(ship->move(game_map->naive_navigate(ship, scan[ship->id].position)));
-            } else {
+            }
+            else /*if (moveNextCell(destination)==true)*/{
                 command_queue.push_back(ship->move(game_map->naive_navigate(ship, me->shipyard->position)));
             }
         }
@@ -65,4 +67,56 @@ int main(int argc, char* argv[]) {
     }
 
     return 0;
+}
+/*
+bool moveNextCell(Position p_destination) {
+    float haliteNeeded = game_map[p_destination].halite - (game_map[p_destination].halite * (10 / 100)); //We need to make sure that the next cell we move in have 10% Halite min
+    //game_map->at(ship)->halite < constants::MAX_HALITE / 10
+
+    bool moveable = false;
+
+    if (game_map[p_destination]->halite > haliteNeeded && at(p_destination)->!is_occupied()) {
+        moveable = true;
+    } 
+    else { 
+        moveable = false
+    }
+
+    /*
+    //scan the 4 cardinals directions
+    haliteN = MapCell.position.directional_offset(Direction.North)->halite;
+    haliteS = MapCell.position.directional_offset(Direction.South)->halite;
+    haliteE = MapCell.position.directional_offset(Direction.East)->halite;
+    haliteW = MapCell.position.directional_offset(Direction.West)->halite;
+
+    std::array<int, 4> nextHalite = { haliteN,haliteS,haliteE,haliteW };
+    std::array<bool, 4> canAccessNextCell = { false,false,false,false };
+
+    //check if the next cell we want to access have the min amount of Halite
+    for (int i = 0; i < 4; ++i) {
+        if (nextHalite[i] > haliteNeeded) {
+            canAccessNextCell[i] = true;
+        }
+    }
+    */
+//}
+
+/*
+Position optiNextDestination(shared_ptr<Ship> ship) {
+
+    Position l_optiDestination;
+
+    //condition if there is high hallite cell in the next 10 cells then make it the destination
+    if (true) {
+        return l_optiDestination;
+    }
+
+    //calculate Distance and use moveNextCell to go to destination
+
+    return l_optiDestination;
+}*/
+
+
+void updatePosOpponent() {
+
 }
