@@ -45,10 +45,10 @@ int main(int argc, char* argv[]) {
 
             //If halite in cargo < 400 => harvest else go back to the shipyard
             if (ship->halite < 400 /*&& moveNextCell(destination)==true*/) {
-                command_queue.push_back(ship->move(game_map->naive_navigate(ship, scan[ship->id].position)));
+                command_queue.push_back(ship->move(game_map->naive_navigate(ship, scan[ship->id].position,  me->shipyard->position)));
             }
             else /*if (moveNextCell(destination)==true)*/{
-                command_queue.push_back(ship->move(game_map->naive_navigate(ship, me->shipyard->position)));
+                command_queue.push_back(ship->move(game_map->naive_navigate(ship, me->shipyard->position,  me->shipyard->position)));
             }
         }
 

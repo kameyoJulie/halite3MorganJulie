@@ -14,31 +14,8 @@
     <list default="true" id="b2ff4b1e-6017-43e2-beea-ba9ad1e6f8df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MyBot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBot.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyBot.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/command.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/command.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/constants.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/constants.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/direction.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/direction.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/dropoff.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/dropoff.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/entity.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/entity.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/game.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/game.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/game_map.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/game_map.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hlt/game_map.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/game_map.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/input.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/input.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/log.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/log.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/map_cell.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/map_cell.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/player.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/position.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/position.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/ship.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/ship.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/shipyard.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/shipyard.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/types.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/types.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/MyBot.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/MyBot.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/command.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/command.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/constants.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/constants.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/dropoff.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/dropoff.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/game.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/game_map.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/game_map.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/log.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/log.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/player.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/player.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/ship.obj" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ship.obj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -64,13 +64,13 @@ vector<hlt::Direction> hlt::GameMap::get_unsafe_moves(const hlt::Position &sourc
     return possible_moves;
 }
 
-hlt::Direction hlt::GameMap::naive_navigate(shared_ptr<Ship> ship, const hlt::Position &destination) {
+hlt::Direction hlt::GameMap::naive_navigate(shared_ptr<Ship> ship, const hlt::Position &destination, const hlt::Position &shipyard) {
     // get_unsafe_moves normalizes for us
     for (auto direction : get_unsafe_moves(ship->position, destination)) {
         Position target_pos = ship->position.directional_offset(direction);
         if (!at(target_pos)->is_occupied()) {
             at(target_pos)->mark_unsafe(ship);
-            if (at(destination)->halite > 50) {
+            if (at(destination)->halite > 50 || destination == shipyard) {
                 return direction;
             }
         }

@@ -26,10 +26,11 @@ namespace hlt {
 
         std::vector<Direction> get_unsafe_moves(const Position& source, const Position& destination);
 
-        Direction naive_navigate(std::shared_ptr<Ship> ship, const Position& destination);
+        Direction naive_navigate(shared_ptr<Ship> ship, const Position &destination, const Position &shipyard);
 
         void _update();
         static std::unique_ptr<GameMap> _generate();
         std::vector<hlt::MapCell> _scan();
+
     };
 }
