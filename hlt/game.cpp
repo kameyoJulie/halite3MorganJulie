@@ -27,7 +27,7 @@ void hlt::Game::ready(const std::string& name) {
 
 void hlt::Game::update_frame() {
     hlt::get_sstream() >> turn_number;
-    log::log("=============== TURN " + std::to_string(turn_number) + " ================");
+    // log::log("=============== TURN " + std::to_string(turn_number) + " ================");
 
     for (size_t i = 0; i < players.size(); ++i) {
         PlayerId current_player_id;

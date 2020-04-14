@@ -24,11 +24,11 @@ int main(int argc, char* argv[]) {
     // As soon as you call "ready" function below, the 2 second per turn timer will start.
     game.ready("MyCppBot");
 
-    log::log("Successfully created bot! My Player ID is " + to_string(game.my_id) + ". Bot rng seed is " + to_string(rng_seed) + ".");
+    // log::log("Successfully created bot! My Player ID is " + to_string(game.my_id) + ". Bot rng seed is " + to_string(rng_seed) + ".");
     vector<MapCell> scan(game.game_map->_scan());
 
     for (auto & i : scan) { // <=> for (int i = 0; i < scan.size(); ++i) {
-        log::log("Map cell coord " + to_string(i.position.x) + ", " + to_string(i.position.y) + ", halite " + to_string(i.halite));
+        // log::log("Map cell coord " + to_string(i.position.x) + ", " + to_string(i.position.y) + ", halite " + to_string(i.halite));
     }
 
     for (;;) {

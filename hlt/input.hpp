@@ -13,7 +13,7 @@ namespace hlt {
         std::string result;
         std::getline(std::cin, result);
         if (!std::cin.good()) {
-            hlt::log::log("Input connection from server closed. Exiting...");
+            // hlt::log::log("Input connection from server closed. Exiting...");
             exit(0);
         }
         return result;

@@ -27,7 +27,7 @@ namespace hlt {
 static std::string get_string(std::unordered_map<std::string, std::string>& map, const std::string& key) {
     auto it = map.find(key);
     if (it == map.end()) {
-        log::log("Error: constants: server did not send " + key + " constant.");
+        // log::log("Error: constants: server did not send " + key + " constant.");
         exit(1);
     }
     return it->second;
@@ -50,7 +50,7 @@ static bool get_bool(std::unordered_map<std::string, std::string>& map, const st
         return false;
     }
 
-    log::log("Error: constants: " + key + " constant has value of '" + string_value +
+    // log::log("Error: constants: " + key + " constant has value of '" + string_value +
         "' from server. Do not know how to parse that as boolean.");
     exit(1);
 }
@@ -86,7 +86,7 @@ void hlt::constants::populate_constants(const std::string& string_from_engine) {
     }
 
     if ((tokens.size() % 2) != 0) {
-        log::log("Error: constants: expected even total number of key and value tokens from server.");
+        // log::log("Error: constants: expected even total number of key and value tokens from server.");
         exit(1);
     }
 
